@@ -1,10 +1,7 @@
-package DataAccess
+package NoSQLDataAccess
 
 type IDataAccess interface {
-	Remove(key string) (error)
-	Set(key string, value interface{}) (error)
-	Get(key string, value interface{}) (error)
+	Remove(key string) error
+	Set(key string, value interface{}) error
+	Get(key string, value interface{}) error
 }
-
-
-
