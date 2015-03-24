@@ -1,0 +1,14 @@
+{
+	"ImportPath": "github.com/neoncode/NoSQLDataAccess",
+	"GoVersion": "go1.4.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/couchbase/gomemcached",
+			"Rev": "a59203216384d06a1d0a5e08e02b2edfb48898df"
+		},
+		{
+			"ImportPath": "github.com/couchbaselabs/go-couchbase",
+			"Rev": "cb6ff566fa65c02078158b514e7cc1fd8b6230cd"
+		}
+	]
+}
